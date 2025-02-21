@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unife.lp.view.AddProductController">
+   <children>
+      <Label layoutX="43.0" layoutY="44.0" text="Nome" />
+      <TextField fx:id="nameField" layoutX="114.0" layoutY="40.0" />
+      <Label layoutX="41.0" layoutY="83.0" text="Codice" />
+      <TextField fx:id="codeField" layoutX="114.0" layoutY="79.0" />
+      <TextField fx:id="descriptionField" layoutX="114.0" layoutY="123.0" />
+      <Label layoutX="41.0" layoutY="127.0" text="Descrizione" />
+      <Label layoutX="42.0" layoutY="171.0" text="Prezzo" />
+      <TextField fx:id="priceField" layoutX="114.0" layoutY="167.0" />
+      <TextField fx:id="quantitytField" layoutX="112.0" layoutY="206.0" />
+      <Label layoutX="40.0" layoutY="210.0" text="Quantità" />
+      <Label layoutX="40.0" layoutY="247.0" text="Categoria" />
+      <TextField fx:id="categoryField" layoutX="112.0" layoutY="243.0" />
+      <Button fx:id="addButton" layoutX="161.0" layoutY="342.0" mnemonicParsing="false" onAction="#addProductFinal" text="Aggiungi" />
+      <Button fx:id="cancelButton" layoutX="235.0" layoutY="342.0" mnemonicParsing="false" onAction="#exitAddProduct" text="Annulla" />
+      <Label layoutX="89.0" layoutY="7.0" text="Nuovo Prodotto">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

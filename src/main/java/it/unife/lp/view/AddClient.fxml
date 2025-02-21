@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unife.lp.view.AddClientController">
+   <children>
+      <Label layoutX="43.0" layoutY="44.0" text="Nome" />
+      <TextField fx:id="nameField" layoutX="114.0" layoutY="40.0" />
+      <Label layoutX="41.0" layoutY="83.0" text="Cognome" />
+      <TextField fx:id="surnameField" layoutX="114.0" layoutY="79.0" />
+      <TextField fx:id="addressField" layoutX="114.0" layoutY="123.0" />
+      <Label layoutX="41.0" layoutY="127.0" text="Indirizzo" />
+      <Label layoutX="42.0" layoutY="171.0" text="Telefono" />
+      <TextField fx:id="phoneField" layoutX="114.0" layoutY="167.0" />
+      <TextField fx:id="mailField" layoutX="112.0" layoutY="206.0" />
+      <Label layoutX="40.0" layoutY="210.0" text="Email" />
+      <Button layoutX="161.0" layoutY="342.0" mnemonicParsing="false" onAction="#addClient" text="Aggiungi" />
+      <Button layoutX="235.0" layoutY="342.0" mnemonicParsing="false" onAction="#exitAddClient" text="Annulla" />
+      <Label layoutX="89.0" layoutY="7.0" text="Nuovo Cliente">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

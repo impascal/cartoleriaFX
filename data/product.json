@@ -1,0 +1,29 @@
+[ {
+  "name" : "penna",
+  "code" : "1234",
+  "description" : "una penna bic",
+  "price" : 0.5,
+  "quantity" : 5,
+  "category" : "cancelleria"
+}, {
+  "name" : "cartolina",
+  "code" : "2312",
+  "description" : "è una cartolina",
+  "price" : 10.0,
+  "quantity" : 25,
+  "category" : "cartoleria"
+}, {
+  "name" : "graffetta",
+  "code" : "789",
+  "description" : "graffetta da carta",
+  "price" : 0.1,
+  "quantity" : 500,
+  "category" : "cartoleria e ufficio"
+}, {
+  "name" : "matita",
+  "code" : "909",
+  "description" : "una matita",
+  "price" : 0.5,
+  "quantity" : 10,
+  "category" : "cartoleria"
+} ]

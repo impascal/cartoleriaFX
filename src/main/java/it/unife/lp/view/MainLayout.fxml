@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unife.lp.view.MainLayoutController">
+   <top>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <Button mnemonicParsing="false" onAction="#goHome" text="Home" />
+            <Button mnemonicParsing="false" onAction="#goProduct" text="Prodotti" />
+            <Button mnemonicParsing="false" onAction="#goClient" text="Clienti" />
+            <Button mnemonicParsing="false" onAction="#goSale" text="Vendite" />
+        </items>
+      </ToolBar>
+   </top>
+</BorderPane>

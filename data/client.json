@@ -1,0 +1,19 @@
+[ {
+  "name" : "Matteo",
+  "surname" : "Perelli",
+  "address" : "Via Sandro Pertini",
+  "phone" : "3459059752",
+  "mail" : "perellimatteo17@gmail.com"
+}, {
+  "name" : "Mario",
+  "surname" : "Rossi",
+  "address" : "Via Mario Rossi 22",
+  "phone" : "0000000000",
+  "mail" : "mario.rossi@gmail.com"
+}, {
+  "name" : "Erika",
+  "surname" : "Perelli",
+  "address" : "Via Sandro Pertini 22",
+  "phone" : "3389015049",
+  "mail" : "erika.perelli@gmail.com"
+} ]

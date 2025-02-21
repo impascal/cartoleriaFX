@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unife.lp.view.SaleViewController">
+   <bottom>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <items>
+            <Button mnemonicParsing="false" onAction="#addSaleScene" text="Nuovo" />
+            <Button mnemonicParsing="false" onAction="#removeSale" text="Elimina" />
+            <Button mnemonicParsing="false" onAction="#saveSale" text="Salva" />
+            <Button mnemonicParsing="false" onAction="#saleReport" text="Report" />
+            <TextField fx:id="search" onAction="#search" promptText="Cerca..." />
+         </items>
+      </ToolBar>
+   </bottom>
+   <center>
+      <TableView fx:id="saleTable" prefHeight="368.0" prefWidth="489.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="clientColumn" prefWidth="117.0" text="Cliente" />
+          <TableColumn fx:id="productColumn" minWidth="0.0" prefWidth="117.0" text="Prodotto" />
+            <TableColumn fx:id="quantityColumn" prefWidth="135.0" text="Quantità" />
+            <TableColumn fx:id="paymentMethodColumn" prefWidth="172.0" text="Metodo di pagamento" />
+            <TableColumn fx:id="dateColumn" prefWidth="148.0" text="Data" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>

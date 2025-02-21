@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unife.lp.view.AddSaleController">
+   <children>
+      <Label layoutX="43.0" layoutY="44.0" text="Cliente" />
+      <TextField fx:id="clientField" layoutX="114.0" layoutY="40.0" />
+      <Label layoutX="41.0" layoutY="83.0" text="Prodotto" />
+      <TextField fx:id="productField" layoutX="114.0" layoutY="79.0" />
+      <TextField fx:id="quantityField" layoutX="114.0" layoutY="123.0" />
+      <Label layoutX="41.0" layoutY="127.0" text="Quantità" />
+      <Label layoutX="9.0" layoutY="171.0" text="Met. di pagamento" />
+      <TextField fx:id="paymentMethodField" layoutX="112.0" layoutY="167.0" />
+      <Button layoutX="136.0" layoutY="253.0" mnemonicParsing="false" onAction="#addSale" text="Aggiungi" />
+      <Button layoutX="218.0" layoutY="253.0" mnemonicParsing="false" onAction="#exitAddSale" text="Annulla" />
+      <Label layoutX="89.0" layoutY="7.0" text="Nuova Vendita">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

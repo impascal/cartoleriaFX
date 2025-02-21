@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unife.lp.view.ClientViewController">
+   <bottom>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <items>
+            <Button mnemonicParsing="false" onAction="#addClientScene" text="Nuovo" />
+            <Button mnemonicParsing="false" onAction="#removeClient" text="Elimina" />
+            <Button mnemonicParsing="false" onAction="#saveClient" text="Salva" />
+         </items>
+      </ToolBar>
+   </bottom>
+   <center>
+      <TableView fx:id="clientTable" prefHeight="368.0" prefWidth="489.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="nameColumn" prefWidth="89.0" text="Nome" />
+          <TableColumn fx:id="surnameColumn" prefWidth="89.0" text="Cognome" />
+            <TableColumn fx:id="addressColumn" prefWidth="157.0" text="Indirizzo" />
+            <TableColumn fx:id="phoneColumn" prefWidth="161.0" text="Telefono" />
+            <TableColumn fx:id="emailColumn" prefWidth="193.0" text="Email" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>

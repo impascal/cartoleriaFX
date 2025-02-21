@@ -1,0 +1,25 @@
+[ {
+  "client" : "Matteo Perelli",
+  "product" : "penne",
+  "quantity" : 10,
+  "paymentMethod" : "Carta",
+  "date" : [ 2025, 2, 20 ]
+}, {
+  "client" : "Matteo Perelli",
+  "product" : "penne",
+  "quantity" : 10,
+  "paymentMethod" : "carta",
+  "date" : [ 2025, 2, 8 ]
+}, {
+  "client" : "Erika Perelli",
+  "product" : "graffetta",
+  "quantity" : 500,
+  "paymentMethod" : "Contanti",
+  "date" : [ 2025, 2, 14 ]
+}, {
+  "client" : "Erika Perelli",
+  "product" : "graffetta",
+  "quantity" : 500,
+  "paymentMethod" : "Carta",
+  "date" : [ 2025, 2, 14 ]
+} ]
